@@ -35,39 +35,6 @@ return (
   
 </div>
 
-      
-{/* <Table celled>
-<Table.Header>
- <Table.Row>
-   <Table.HeaderCell>Flag</Table.HeaderCell>
-   <Table.HeaderCell>Name</Table.HeaderCell>
-   <Table.HeaderCell>Capital</Table.HeaderCell>
-   <Table.HeaderCell>Region</Table.HeaderCell>
-   
-
- </Table.Row>
-</Table.Header>
-
-<Table.Body>
- 
- {
-   countries.map(
-       countries=><Table.Row key={countries.alpha2Code}>
-       <Table.Cell>
-         {countries.name}
-       </Table.Cell>
-       <Table.Cell>{countries.capital}</Table.Cell>
-       <Table.Cell>{countries.region}</Table.Cell>
-       <Table.Cell><img src={countries.flags.svg} height="100" width='200'></img></Table.Cell>
-       
-     </Table.Row>
-   )
- }
- 
-</Table.Body>
-
-
-</Table> */}
 
 <table class="table table-striped">
   <thead>
