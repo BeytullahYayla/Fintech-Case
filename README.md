@@ -69,3 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Fintech-Case
+ In this case study, a aimed to design frontend web application that shows informations of countries such as flag, name, region and capital. As a backend server I've used an api given me by Fintech-Yazılım company. 
