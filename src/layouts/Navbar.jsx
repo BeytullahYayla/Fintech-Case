@@ -5,9 +5,9 @@ export default function Navbar(){
     return(
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Fintech DataTable</a>
+                <a class="navbar-brand" href="#">Fintech Countries Datatable</a>
             </div>
         </nav>
     )

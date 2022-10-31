@@ -36,7 +36,7 @@ return (
 </div>
 
       
-<Table celled>
+{/* <Table celled>
 <Table.Header>
  <Table.Row>
    <Table.HeaderCell>Flag</Table.HeaderCell>
@@ -67,7 +67,30 @@ return (
 </Table.Body>
 
 
-</Table>
+</Table> */}
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Flag</th>
+      <th scope="col">Name</th>
+      <th scope="col">Capital</th>
+      <th scope="col">Region</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      countries.map(
+        countries=> <tr>
+        <th scope="row"><img src={countries.flags.svg} height="100" width='200'></img></th>
+        <td>{countries.name}</td>
+        <td>{countries.capital}</td>
+        <td>{countries.region}</td>
+      </tr>
+      )
+    }
+  </tbody>
+</table>
 </div>
 
 )
